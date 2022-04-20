@@ -1,0 +1,182 @@
+/*variaveis*/
+:root{
+    --vermelho: #E50914;
+    --preta:#141414;
+    --cinza:#AAA;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/*ELEMENTOS BASE*/
+body{
+    background: black;
+    font-family: 'Arial', Times, serif;
+    color: white;
+    
+}
+
+
+header .container{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;    
+    
+} 
+    
+header .logo{
+
+    margin-left: 5px;
+    color: var(--vermelho);
+    font-family: 'Arial Black', Times;
+    font-size:40px;
+
+  
+}
+
+header i
+{
+    color:var(--vermelho)
+}
+
+header nav a{
+    
+    text-decoration:none;
+    color:#AAA;
+    margin-right: 10px; 
+    
+}
+
+header nav a:hover{
+    color:#fff;
+
+}
+
+
+
+/*Filme principal*/
+.filme-principal{
+
+  font-size: 16px;
+  background: linear-gradient(rgba(0,0,0,0.50),rgba(0, 0, 0, 0.473)), url(../Img/rAiYTfKGqDCRIIqo664sY9XZIvQ.jpg);
+
+  height:550px;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;/*comeca da esquerda*/
+}
+ .container
+{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.filme-principal .titulo{
+
+    margin-top: 10%;
+    font-size: 40px;
+
+    font-family: 'Trebuchet MS',arial,sans-serif;
+}
+
+.filme-principal .descricao
+{
+    margin-top: 10px;
+    margin-bottom: 5px;
+
+}
+.filme-principal .genero{
+
+    margin-bottom: 90px;
+    color: white;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.253);
+    padding: 6px;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-family: 'Arial', Helvetica, sans-serif;
+}
+.filme-principal .container{
+
+    width: 70%;
+
+}
+.botao{
+    background-color: rgba(0,0,0,.50);
+    text-transform: uppercase;
+    color: white;
+    padding: 15px 30px;
+    margin-right: 10px;
+    font-size: 12px;
+    cursor: pointer;
+    border: none;
+    transition: 1.3s ease all;
+    
+}
+
+.botao:hover{
+  
+    background-color: white;
+    color: black;
+}
+
+.botao i{
+    
+    margin-right: 5px;
+}
+
+/*Carroosel*/
+.box-filme{
+
+    height: 100%;
+    width: 100%;
+    display: block;
+    
+
+}
+
+.carrossel_filmes
+{
+    margin-top: 3px;
+}
+
+.carrossel_filmes img:hover
+{
+    border-bottom: 1px solid var(--vermelho);
+    transition: 1s;
+   
+}
+
+.busca_filmes
+{
+    margin-left: 25px;
+    font-size: 20px;
+    padding: 15px;
+    color: white;
+    font-family: 'Helvetica', sans-serif;
+    text-shadow: 1px 1px white;
+    text-transform: uppercase;
+}
+
+.rodape 
+{
+   
+    font-size: 14px;
+    color: var(--cinza);
+    text-align: center;
+    text-shadow: 2px 2px 10px rgba(255, 255, 255, 0.404) ;
+    background: var(--vermelho);
+    line-height: 50px;
+   
+
+}
