@@ -1,0 +1,135 @@
+:root{
+    --vermelho: #E50914;
+    --preta:#141414;
+    --cinza:#AAA;
+
+}
+
+body
+{
+    background-color:black;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.container_batman
+{
+   display: flex;
+   align-items: center;
+   flex-direction: row;
+   justify-content: space-between;
+   background-color:var(--preta);
+   height: 80px;
+   border-bottom: 1px solid var(--vermelho);
+}
+
+header i
+{
+    color:var(--vermelho)
+}
+.logo
+{
+    margin-left: 5px;
+    color: var(--vermelho);
+    font-family: 'Arial Black', Times;
+    font-size:40px;
+}
+
+.menu a
+{
+    color: #AAA;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color:#fff;
+
+}
+
+.filme-principal{
+
+    font-size: 20px;
+    background: linear-gradient(rgba(0,0,0,0.50),rgba(0, 0, 0, 0.774)), url(../Img/Batman_fundo2.png);
+  
+    height:350px;
+    background-size: contain;
+    overflow: auto;    
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;/*comeca da esquerda*/
+    border-bottom: 1px solid var(--vermelho);
+   
+  }
+
+  .filme-principal .titulo
+  {
+      font-size: 45px;
+
+  }
+
+
+.filme-principal_agente
+{
+    font-size: 20px;
+    background: linear-gradient(rgba(0,0,0,0.50),rgba(0, 0, 0, 0.774)), url(../Img/Agente-das-sombras_destaque.jpg);
+  
+    height:350px;
+    background-size: contain;
+    overflow: auto;    
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;/*comeca da esquerda*/
+    border-bottom: 1px solid var(--vermelho);
+}
+
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    text-transform: uppercase;
+    color: white;
+    padding: 15px 30px;
+    margin-right: 10px;
+    font-size: 12px;
+    cursor: pointer;
+    border: none;
+    transition: 1.3s ease all;
+    
+}
+
+.botao:hover{
+  
+    background-color: white;
+    color: black;
+}
+
+.botao i{
+    
+    margin-right: 5px;
+}
+
+/*Carroosel*/
+.box-filme{
+
+    height: 100%;
+    width: 100%;
+    display: block;
+    
+}
+
+.botao a
+{
+    text-decoration: none;
+    color: var(--cinza);
+}
+
+
+.video
+{
+    margin-left: 30%;
+}
