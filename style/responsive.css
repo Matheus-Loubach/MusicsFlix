@@ -1,32 +1,67 @@
+/*celular*/
+
+
+/*CELULAR*/
 @media screen and (max-width:700px){
 
-    header .container{
-        display: flex;
-        flex-direction: column;
-    }
+   .filme-principal .capa{
+       margin-left: 25%;
+       margin-top: 10px;
+       transition: 1s;
+      
+       }
 
 }
 
-@media screen and (max-width:600px){
+@media screen and (max-width:700px){
 
-    .botao
-    {
-    
-         margin-top: 5px;
-         width: 140px;
-         height: 60px;
-         border-radius: 20px;
-    }
+    header .logo{
+        font-size: 25px;
+        margin-left: 20px;
+        transition: 2s;
+        }
+ 
+ }
 
-}
+ @media screen and (min-width:701px){
 
+    header .logo{
+        font-size: 40px;
+        margin-left: 20px;
+        transition: 2s;
+        }
+ 
+ }
 
-
+/*PC*/
 @media screen and (min-width:1000px){
 
-    .descricao
-    {
-        width: 50%;
-    }
+    .filme-principal .capa{
+        margin-left: 2%;
+        margin-top: 10px;
+        margin-right: 5%;
+        transition: 1s;
+        float: left;
+        }
+ 
+ }
 
-}
+ @media screen and (min-width:701px) {
+
+    .filme-principal .capa{
+        margin-left: 2%;
+        margin-top: 10px;
+        margin-right: 5%;
+        transition: 1s;
+        float: left;
+        display: inline;
+        }
+ 
+     
+ }
+
+ 
+
+
+
+
