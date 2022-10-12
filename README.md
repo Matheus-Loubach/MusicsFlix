@@ -1,5 +1,4 @@
-Projeto interface MusicsFlix:
-Interface do criado site MusicsFlix replicando a interface do NETFLIX, com mudanças em meio à criatividade, para aprendizado de novos comandos e responsividade sem frameworks.
+Projeto interface MusicsFlix: Um clone da interface da NETFLIX, com mudanças em meio à criatividade, para aprendizado de novos comandos e responsividade sem frameworks.
 
 
 Uso das ferramentas do jQuery como o plugin Owl Carousel.
